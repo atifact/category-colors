@@ -1,11 +1,13 @@
 const chroma = require("chroma-js");
 
 const targetColors = [
-    "#9966FF",
-    "#0055BC",
-    "#00A1C2",
-    "#ED6804",
-    "#B3063D"
+    "#E8F3EA",
+    "#E1EFF7",
+    "#FFE4AD",
+    "#D8EBDB",
+    "#FEDDB9",
+    "#C3DED0",
+    "#E3CFE3"
 ];
 
 // random from array
@@ -304,4 +306,4 @@ Cost difference: ${cost(colors) - startCost}`);
     return colors;
 };
 
-optimize(8);
+optimize(11);
